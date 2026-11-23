@@ -1,0 +1,44 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Generated model training checkpoints
+# Keep the final model needed by the application.
+models/checkpoint*
+models/*.weights.h5
+
+# Generated temporary files
+*.tmp
+*.temp
+
+# Generated prediction and visualization outputs
+outputs/
+processed_data/
+
+data/raw/
