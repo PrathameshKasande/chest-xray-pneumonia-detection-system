@@ -252,7 +252,7 @@ The application follows this general machine learning workflow:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/PrathameshKasande/chest-xray-pneumonia-detection-system.git
+git clone https://github.com/User_Name/chest-xray-pneumonia-detection-system.git
 ```
 
 ### 2. Navigate to the Project Directory
