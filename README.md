@@ -6,13 +6,28 @@
   <img src="https://img.shields.io/badge/Keras-3.15-red?logo=keras&logoColor=white" alt="Keras">
   <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Status-Development-yellow" alt="Project Status">
+  <img src="https://img.shields.io/badge/Deployment-Render-46E3B7?logo=render&logoColor=white" alt="Render">
+  <img src="https://img.shields.io/badge/Status-Live-success" alt="Project Status">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
 </p>
 
 <p align="center">
   An AI-powered deep learning application that analyzes chest X-ray images and predicts whether they indicate NORMAL or PNEUMONIA.
 </p>
+
+---
+
+## 🚀 Live Demo
+
+<blockquote>
+  **Try the application online!**
+
+  👉 **[Launch Chest X-ray Pneumonia Detection System](https://chest-xray-pneumonia-detection-system-rbor.onrender.com)**
+
+  Deployment Platform: Render
+</blockquote>
+
+Upload a chest X-ray image and explore the AI-powered prediction dashboard.
 
 ---
 
@@ -29,9 +44,11 @@
 - [Model Training](#-model-training)
 - [Model Evaluation](#-model-evaluation)
 - [Grad-CAM Visualization](#-grad-cam-visualization)
+- [Prediction](#-prediction)
 - [Run the Streamlit Application](#-run-the-streamlit-application)
 - [Docker Deployment](#-docker-deployment)
 - [Git LFS Setup](#-git-lfs-setup)
+- [Testing](#-testing)
 - [Future Improvements](#-future-improvements)
 - [Disclaimer](#-disclaimer)
 - [Author](#-author)
@@ -51,6 +68,8 @@ A Streamlit-based web application provides an interactive interface where users 
 
 The project also explores model evaluation, data preprocessing, and Grad-CAM visualization to help understand the regions influencing the model's predictions.
 
+The application is deployed online using Render.
+
 ---
 
 ## 🎯 Project Objectives
@@ -62,6 +81,7 @@ The project also explores model evaluation, data preprocessing, and Grad-CAM vis
 - Visualize model predictions using Grad-CAM.
 - Build an interactive Streamlit dashboard.
 - Containerize the application using Docker.
+- Deploy the application online.
 - Maintain a reproducible and organized machine learning workflow.
 
 ---
@@ -77,6 +97,7 @@ The project also explores model evaluation, data preprocessing, and Grad-CAM vis
 | 🔥 Grad-CAM | Visualize image regions influencing model predictions. |
 | 🖥️ Interactive Dashboard | User-friendly Streamlit interface. |
 | 🐳 Docker Support | Run the application inside a Docker container. |
+| ☁️ Cloud Deployment | Access the deployed application through Render. |
 | 🧪 Model Evaluation | Evaluate classification performance using standard metrics. |
 
 ---
@@ -95,6 +116,7 @@ The project also explores model evaluation, data preprocessing, and Grad-CAM vis
 | Pillow | Image processing |
 | Streamlit | Interactive web application |
 | Docker | Application containerization |
+| Render | Cloud deployment |
 | Git & GitHub | Version control and project hosting |
 | Git LFS | Large model file storage |
 | Pytest | Testing |
@@ -165,6 +187,9 @@ Chest-Xray-Pneumonia-Detection-System/
 ├── data/
 │   └── raw/
 │       └── chest_xray/
+│           ├── train/
+│           ├── val/
+│           └── test/
 │
 ├── models/
 │   ├── best_custom_cnn.keras
@@ -200,7 +225,7 @@ Chest-Xray-Pneumonia-Detection-System/
 └── README.md
 ```
 
-*Note: Some folders contain generated data or local files and may not be included in the GitHub repository.*
+*Note: Some folders contain generated data or local files and may not be included in the GitHub repository. Model filenames should match the actual files included in the repository.*
 
 ---
 
@@ -252,7 +277,7 @@ The application follows this general machine learning workflow:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/User_Name/chest-xray-pneumonia-detection-system.git
+git clone https://github.com/PrathameshKasande/chest-xray-pneumonia-detection-system.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -515,7 +540,7 @@ This executes the available automated tests in the `tests/` directory.
 - Add more detailed evaluation reports.
 - Improve dashboard design and user experience.
 - Add model monitoring and experiment tracking.
-- Explore deployment on cloud platforms.
+- Explore additional cloud deployment options.
 - Improve automated testing and continuous integration.
 
 ---
@@ -534,9 +559,9 @@ Predictions may be incorrect. Always consult qualified healthcare professionals 
 
 **Prathamesh Kasande**
 
-GitHub: [@PrathameshKasande](https://github.com/PrathameshKasande)
-
-Project Repository: [Chest X-ray Pneumonia Detection System](https://github.com/PrathameshKasande/chest-xray-pneumonia-detection-system)
+- GitHub: [@PrathameshKasande](https://github.com/PrathameshKasande)
+- Project Repository: [Chest X-ray Pneumonia Detection System](https://github.com/PrathameshKasande/chest-xray-pneumonia-detection-system)
+- Live Application: [Try the Project Online](https://chest-xray-pneumonia-detection-system-rbor.onrender.com)
 
 ---
 
